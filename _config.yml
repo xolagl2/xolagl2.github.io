@@ -93,15 +93,15 @@ defaults:
         layout: post
         author: J.R. Galindo A.
         permalink: /:categories/:title.html
-    #- scope:
-    #    path: ""
-    #    type: pages
-    #  values:
-    #    layout: page
-    #    author: J.R. Galindo A.
-    #    permalink: /:title.html
     - scope:
-       path: _drafts
+        path: ""
+        type: pages
+      values:
+        layout: page
+        author: J.R. Galindo A.
+        permalink: /:title.html
+    - scope:
+        path: _drafts
       values:
         layout: post
         comments: false
