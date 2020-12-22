@@ -88,10 +88,18 @@ exclude:
 defaults:
     - scope:
         path: _posts
+        type: posts
       values:
         layout: post
         author: J.R. Galindo A.
         permalink: /:categories/:title.html
+    - scope:
+        path: ""
+        type: pages
+      values:
+        layout: page
+        author: J.R. Galindo A.
+        permalink: /:title.html
     - scope:
        path: _drafts
       values:
@@ -101,3 +109,15 @@ defaults:
 collections:
   drafts:
     output: true
+
+# To use Utterance comments,  you can going to https://utteranc.es/ get more parameters interpretation.
+utterance:
+  # Note: Make sure the repo is public, otherwise your readers will not be able to view the issues/comments.
+  # Make sure the [utterances app](https://github.com/apps/utterances) is installed on the repo, otherwise users will not be able to post comments.
+  #  If your repo is a fork, navigate to it's settings tab and confirm the issues feature is turned on.
+  repo:  # Choose the repository utterances will connect to. eg: owner/repo
+  issue-term: title   # Choose the mapping between blog posts and GitHub issues. 
+  theme: github-light # Choose an Utterances theme that matches your blog. 'github-light' is default
+
+  ## Optional
+  label:  blog-comments # Choose the label that will be assigned to issues created by Utterances.
