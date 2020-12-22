@@ -4,9 +4,8 @@ title: About
 permalink: /about/
 ---
 
-La meta principal de ***Dame una Pîsta !!!*** es mostrarte un camino, una forma de hacer, que te permita resolver tareas y solucionar temas relacionados con la explotación las tecnologías de la información.
+La meta principal de ***Una Pîsta !!!*** es mostrarte un camino, una idea, que te permita resolver tareas y solucionar temas relacionados con la explotación las tecnologías de la información.
 
-### Información Adicional
 
 *José R. Galindo Alcorta*
 
