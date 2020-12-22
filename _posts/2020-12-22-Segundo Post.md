@@ -1,5 +1,6 @@
 ---
 layout: post
+title: Segundo Post
 ---
 
-Contenido del segundo post
+Contenido del segundo post ....

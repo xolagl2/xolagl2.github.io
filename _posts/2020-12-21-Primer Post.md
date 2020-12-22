@@ -1,6 +1,5 @@
 ---
 layout: post
-title: Primer Post Ejemplo
+title: Primer Post
 ---
-En Construcción....
-
+Contenido del Primer Post ....
