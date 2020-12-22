@@ -8,13 +8,11 @@ La meta principal de ***Dame una Pîsta !!!*** es mostrarte un camino, una forma
 
 ### Información Adicional
 
-**José R. Galindo Alcorta**
+*José R. Galindo Alcorta*
 
-*Ing. Mecánico, Esp. Diseño Máquinas Herramientas*
+*Ing. Mecánico, Esp. Diseño Máquinas Herramientas.*
 
-Actualmente Administrador de Red Informática.
-
-Entusiasta con las tecnologías de información.
+*Actualmente Administrador de Red Informática.*
 
 ### Contacto
 

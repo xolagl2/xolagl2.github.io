@@ -18,7 +18,7 @@ avatar: https://xolagl2.github.io/images/logo.png
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email:
+  email: socialgl2-blogs@yahoo.com
   facebook:
   flickr:
   github: xolagl2
@@ -84,3 +84,20 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+
+defaults:
+    - scope:
+        path: _posts
+      values:
+        layout: post
+        author: J.R. Galindo A.
+        permalink: /:categories/:title.html
+    - scope:
+       path: _drafts
+      values:
+        layout: post
+        comments: false
+
+collections:
+  drafts:
+    output: true
