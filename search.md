@@ -1,3 +1,8 @@
+---
+layout: page
+title: Search
+permalink: /search
+---
 <!-- Html Elements for Search -->
 <div id="search-container">
 <input type="text" id="search-input" placeholder="search...">
