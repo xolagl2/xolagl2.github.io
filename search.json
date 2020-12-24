@@ -1,7 +1,8 @@
 ---
 ---
+
 [
-    {% for post in site.posts %
+    { % for post in site.posts %
     }
     {
         "title": "{{ post.title | escape }}",
@@ -9,10 +10,10 @@
         "category": "{{ post.category }}",
         "tags": "{{ post.tags | join: ', ' }}",
         "date": "{{ post.date }}"
-    } {% unless forloop.last %
+    } { % unless forloop.last %
     },
-    {% endunless %
+    { % endunless %
     }
-  {% endfor %
+  { % endfor %
     }
 ]
