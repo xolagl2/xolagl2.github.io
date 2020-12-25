@@ -53,7 +53,7 @@ baseurl: ""
 # !! You don't need to change any of the configuration flags below !!
 #
 
-permalink: /:title/
+# permalink: /:title/
 
 # The release of Jekyll Now that you're using
 version: v1.2.0
@@ -94,14 +94,14 @@ defaults:
         layout: post
         title: "Titulo del Post"
         author: "J.R. Galindo A."
-        
-        #permalink: /:categories/:title.html
+        categories: categoria
+        permalink: /:categories/:title.html
     - scope:
         path: ""
         type: pages
       values:
         layout: page
-        #permalink: /:title.html
+        permalink: /:title.html
     - scope:
         path: _drafts
       values:

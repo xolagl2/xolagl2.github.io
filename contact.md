@@ -11,4 +11,4 @@ permalink: /contact.html
 *Actualmente Administrador de Red Informática.*
 
 
-[E-mail: socialgl1-blogs@yahoo.com](mailto:socialgl2-blogs@yahoo.com)
+[E-mail](mailto:socialgl2-blogs@yahoo.com)
