@@ -92,16 +92,13 @@ defaults:
         type: posts
       values:
         layout: post
-        title: "Titulo"
+        title: "Título"
         author: "J.R. Galindo A."
-        categories: "Otros"
-#        permalink: /:categories/:title/
     - scope:
         path: ""
         type: pages
       values:
         layout: page
-#        permalink: /:title/
     - scope:
         path: _drafts
       values:
