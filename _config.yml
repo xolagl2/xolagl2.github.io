@@ -73,9 +73,10 @@ sass:
   style: :expanded # You might prefer to minify using :compressed
 
 # Use the following plug-ins
-gems:
+plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - jekyll-seo-tag
 
 # Exclude these files from your production _site
 exclude:
@@ -91,14 +92,15 @@ defaults:
         type: posts
       values:
         layout: post
-        author: J.R. Galindo A.
+        title: "Titulo del Post"
+        author: "J.R. Galindo A."
+        
         #permalink: /:categories/:title.html
     - scope:
         path: ""
         type: pages
       values:
         layout: page
-        author: J.R. Galindo A.
         #permalink: /:title.html
     - scope:
         path: _drafts
