@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Search
+title: Buscar
 permalink: /search
 ---
 <!-- Html Elements for Search -->
 <div id="search-container">
-<input type="text" id="search-input" placeholder="search...">
-<ul id="results-container"></ul>
+  <input type="text" id="search-input" placeholder="define ...">
+  <ul id="results-container"></ul>
 </div>
 
 <!-- Script pointing to search-script.js -->
@@ -16,7 +16,12 @@ permalink: /search
 <script>
 SimpleJekyllSearch({
   searchInput: document.getElementById('search-input'),
-  resultsContainer: document.getElementById('results-container'),
-  json: '/search.json'
+  resultsContainer: document.getElementById 'results-container'),
+  json: '/search.json',
+  searchResultTemplate: '<li><a href="{url}?query={query}" title="{desc}">{title}</a></li>',
+  noResultsText: 'No results found',
+  limit: 10,
+  fuzzy: false,
+  exclude: ['Welcome']
 })
 </script>

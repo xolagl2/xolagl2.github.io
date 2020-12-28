@@ -1,11 +1,13 @@
 ---
 layout: page
-title: About
+title: Acerca de
 permalink: /about/
 ---
 
 La meta principal de ***Una Pîsta !!!*** es mostrarte un camino, una idea, que te permita resolver tareas y solucionar temas relacionados con la explotación las tecnologías de la información.
 
+
+## Contacto
 
 *José R. Galindo Alcorta*
 
@@ -13,6 +15,5 @@ La meta principal de ***Una Pîsta !!!*** es mostrarte un camino, una idea, que 
 
 *Actualmente Administrador de Red Informática.*
 
-### Contacto
 
-[socialgl2-blogs@yahoo.com](mailto:socialgl2-blogs@yahoo.com)
+[E-mail](mailto:socialgl2-blogs@yahoo.com)
